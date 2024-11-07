@@ -1,0 +1,22 @@
+<svg width="357" height="259" viewBox="0 0 357 259" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="5.21251" y1="27.762" x2="321.001" y2="27.997" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="314.731" y2="-1" transform="matrix(0.773812 -0.633416 0.734067 0.679078 5.21875 235.687)" stroke="currentColor" stroke-width="6"/>
+<line x1="300.958" y1="28.762" x2="300.958" y2="6.05517" stroke="currentColor" stroke-width="6"/>
+<ellipse cx="301.089" cy="5.29827" rx="6.08857" ry="5.29827" fill="currentColor"/>
+<ellipse cx="300.079" cy="242.998" rx="6.08857" ry="5.29827" fill="currentColor"/>
+<line y1="-1" x2="127.719" y2="-1" transform="matrix(0.994294 0.106673 -0.140277 0.990112 173.959 213.444)" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="155.609" y2="-1" transform="matrix(-0.301839 0.953359 -0.972443 -0.233142 231.365 48.4413)" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="10.7384" y2="-1" transform="matrix(-0.161998 0.986791 -0.992361 -0.123365 173.959 213.444)" stroke="currentColor" stroke-width="6"/>
+<line x1="172.219" y1="223.527" x2="161.782" y2="223.527" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="26.2583" y2="-1" transform="matrix(0.198748 0.980051 -0.988413 0.151785 156.563 198.307)" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="135.899" y2="-1" transform="matrix(-0.998448 0.0556954 -0.0734652 -0.997298 208.751 195.279)" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="19.4754" y2="-1" transform="matrix(-0.714579 -0.699555 0.790985 -0.611835 74.8024 202.848)" stroke="currentColor" stroke-width="6"/>
+<line x1="247.761" y1="36.3309" x2="247.761" y2="28.762" stroke="currentColor" stroke-width="6"/>
+<line x1="299.079" y1="243.789" x2="299.079" y2="227.069" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="8.69281" y2="-1" transform="matrix(0.998154 0.0607379 -0.080099 0.996787 299.21 227.069)" stroke="currentColor" stroke-width="6"/>
+<path d="M0 221.013H11.1355C15.5538 221.013 19.1355 224.595 19.1355 229.013V231.179C19.1355 235.597 15.5538 239.179 11.1355 239.179H0V221.013Z" fill="currentColor"/>
+<path d="M0 19.6793H11.1355C15.5538 19.6793 19.1355 23.261 19.1355 27.6793V29.8447C19.1355 34.263 15.5538 37.8447 11.1355 37.8447H0V19.6793Z" fill="currentColor"/>
+<line x1="257.459" y1="247.296" x2="344.439" y2="247.296" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="16.306" y2="-1" transform="matrix(0.754369 -0.656451 0.754369 0.656451 247.022 259)" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="16.306" y2="-1" transform="matrix(0.754369 0.656451 -0.754369 0.656451 342.699 248.296)" stroke="currentColor" stroke-width="6"/>
+</svg>
