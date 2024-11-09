@@ -12,7 +12,7 @@ if (!sessionSecret) {
 // Define session storage with cookie configuration
 const storage = createCookieSessionStorage({
   cookie: {
-    name: "my_remix_session",
+    name: "cat_session",
     secure: process.env.NODE_ENV === "production",
     secrets: [sessionSecret],
     sameSite: "lax",

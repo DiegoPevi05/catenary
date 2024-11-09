@@ -1,5 +1,4 @@
 // app/routes/login.tsx
-
 import { useState } from "react";
 import { json, ActionFunction, redirect } from "@remix-run/node";
 import { Form, useActionData, useNavigate } from "@remix-run/react";
@@ -7,8 +6,8 @@ import  loginSchema from "~/db/schemas/login";
 import { login } from "~/db/auth/auth.server"; // Your login function
 import { ZodError } from "zod";
 import { useTranslation } from "react-i18next";
-import Eye from "/public/images/svg/common/eye.svg?react"
-import EyeOff from "/public/images/svg/common/eye-off.svg?react"
+import Eye from "~/assets/svg/common/eye.svg?react"
+import EyeOff from "~/assets/svg/common/eye-off.svg?react"
 import Button from "~/components/Button";
 
 type ActionData = {
@@ -53,17 +52,15 @@ export default function LogIn() {
   const [showPassword, setShowPassword] = useState(false);
 
   return (
-    <div className="w-full h-screen bg-cover bg-secondary">
-      <div className="w-full h-full flex flex-col justify-center items-center gap-y-6">
-        <div className="w-auto px-12 py-2 bg-primary flex justify-center items-center rounded-md">
-          <img onClick={() => navigate("/")} src="/images/logo.png" alt="logo" className="w-auto h-8 cursor-pointer hover:scale-105" />
-        </div>
         <Form
           method="post"
           id="form_user_login"
-          className="w-[90%] sm:w-[400px] h-auto flex flex-col justify-center items-center rounded-3xl shadow-3xl p-6"
+          className="w-[90%] sm:w-[400px] h-auto flex flex-col justify-center items-center rounded-2xl shadow-2xl p-6"
           style={{ background: "rgba(255,255,255,0.80)" }}
         >
+          <div className="w-auto px-12 py-2 bg-primary flex justify-center items-center rounded-md">
+            <img onClick={() => navigate("/")} src="/images/logo.png" alt="logo" className="w-auto h-8 cursor-pointer hover:scale-105" />
+          </div>
           <p className="text-body text-xl my-2 font-bold">{t("auth.signin.header")}</p>
           <div className="flex flex-col justify-start items-start w-full h-auto overflow-hidden my-1 gap-y-2 sm:gap-y-1">
             <label htmlFor="email" className="text-body h-3 sm:h-6 capitalize">{t("auth.signin.email")}</label>
@@ -92,7 +89,5 @@ export default function LogIn() {
           {actionData?.formError && <p className="text-red-500">{t(actionData.formError)}</p>}
           <Button isLoading={false}>{t("auth.signin.log_in")}</Button>
         </Form>
-      </div>
-    </div>
   );
 }

@@ -1,6 +1,6 @@
 import { cn } from '../utils/helper'
 import { cva, VariantProps } from 'class-variance-authority'
-import Loader2 from '/public/images/svg/common/loader.svg?react'
+import Loader2 from '~/assets/svg/common/loader.svg?react'
 import { ButtonHTMLAttributes, FC } from 'react'
 
 export const buttonVariants = cva(

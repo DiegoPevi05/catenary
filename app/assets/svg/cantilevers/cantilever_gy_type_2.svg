@@ -1,0 +1,18 @@
+<svg width="303" height="174" viewBox="0 0 303 174" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="2.99597" y1="18" x2="195.996" y2="18" stroke="currentColor" stroke-width="6"/>
+<line x1="2.31483" y1="154.965" x2="142.315" y2="23.2716" stroke="currentColor" stroke-width="6"/>
+<line x1="179" y1="19" x2="179" y2="4" stroke="currentColor" stroke-width="6"/>
+<circle cx="179.5" cy="3.5" r="3.5" fill="currentColor"/>
+<circle cx="180.5" cy="162.5" r="3.5" fill="currentColor"/>
+<line y1="-1" x2="116.431" y2="-1" transform="matrix(-0.996167 0.0874719 0.0556005 0.998453 296.629 142)" stroke="currentColor" stroke-width="6"/>
+<line x1="50.0872" y1="110.004" x2="302.124" y2="132.054" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="11.0267" y2="-1" transform="matrix(0.577767 -0.816202 -0.667276 -0.74481 295 142)" stroke="currentColor" stroke-width="6"/>
+<line x1="142" y1="24" x2="142" y2="19" stroke="currentColor" stroke-width="6"/>
+<line x1="179.5" y1="163.023" x2="179.5" y2="151.977" stroke="currentColor" stroke-width="6"/>
+<line x1="180.053" y1="151.187" x2="185.041" y2="151.535" stroke="currentColor" stroke-width="6"/>
+<path d="M0 146H5C8.31371 146 11 148.686 11 152V152C11 155.314 8.31371 158 5 158H0V146Z" fill="currentColor"/>
+<path d="M0 13H5C8.31371 13 11 15.6863 11 19V19C11 22.3137 8.31371 25 5 25H0V13Z" fill="currentColor"/>
+<line x1="156" y1="165" x2="206" y2="165" stroke="currentColor" stroke-width="6"/>
+<line x1="149.293" y1="172.364" x2="156.364" y2="165.293" stroke="currentColor" stroke-width="6"/>
+<line x1="205.707" y1="165.293" x2="212.778" y2="172.364" stroke="currentColor" stroke-width="6"/>
+</svg>

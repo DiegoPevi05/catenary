@@ -1,5 +1,6 @@
 import { vitePlugin as remix } from "@remix-run/dev";
 import { defineConfig } from "vite";
+import { envOnlyMacros } from "vite-env-only";
 import tsconfigPaths from "vite-tsconfig-paths";
 import svgr from 'vite-plugin-svgr';
 
@@ -11,6 +12,7 @@ declare module "@remix-run/node" {
 
 export default defineConfig({
   plugins: [
+    envOnlyMacros(),
     remix({
       future: {
         v3_fetcherPersist: true,

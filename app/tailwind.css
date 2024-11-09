@@ -1,12 +1,475 @@
+:root {
+  --primary-color-dark: #003087;
+  --secondary-color-dark: #3CA4E0;
+  --primary-color: #0072CE;
+  --secondary-color: #F3F7FF;
+  --white: #FFFFFF;
+  --body: #5C6C7B;
+  --gray-light: #E0E0E0;
+  font-family: 'Poppins', sans-serif;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+label,
+body,
+caption {
+  line-height: 140%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+label {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 33px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 23px;
+}
+
+span {
+  font-size: 19px;
+}
+
+label {
+  font-size: 16px;
+}
+
+body {
+  font-size: 14px;
+}
+
+p {
+  font-size: 12px;
+}
+
+
+
+caption {
+  font-size: 11px;
+}
+
+
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 44px;
   }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  span {
+    font-size: 16px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+
+  caption {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  p {
+    line-height: 130%;
+    font-size: 12px;
+  }
+
+  span {
+    font-size: 16px;
+  }
+
+  label {
+    font-size: 11px;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+
+  caption {
+    font-size: 10px;
+  }
+}
+
+.padding-x {
+  padding: 0px 150px;
+}
+
+.padding-b {
+  padding-bottom: 100px;
+}
+
+.padding-y {
+  padding: 100px 0px;
+}
+
+.padding {
+  padding: 100px 150px;
+}
+
+@media (max-width: 1280px) {
+  .padding-x {
+    padding: 0px 80px;
+  }
+
+  .padding-b {
+    padding-bottom: 80px;
+  }
+
+  .padding-y {
+    padding: 80px 0px;
+  }
+
+  .padding {
+    padding: 80px 80px;
+
+  }
+}
+
+@media (max-width: 640px) {
+
+  .padding-x {
+    padding: 0px 40px;
+  }
+
+  .padding-b {
+    padding-bottom: 40px;
+  }
+
+  .padding-y {
+    padding: 40px 0px;
+  }
+
+  .padding {
+    padding: 40px 40px;
+
+  }
+}
+
+
+
+
+.no-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+
+/******************* Animations ****************************/
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(-10%) translateY(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    transform: translateX(10%) translateY(0);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-up {
+  from {
+    transform: translateX(0) translateY(-10%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-down {
+  from {
+    transform: translateX(0) translateY(10%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+@keyframes slide-out-right {
+  from {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(-10%) translateY(0);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-out-left {
+  from {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(10%) translateY(0);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-out-up {
+  from {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(0) translateY(-10%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-out-down {
+  from {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(0) translateY(10%);
+    opacity: 0;
+  }
+}
+
+/* Fade-In Animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Fade-Out Animation */
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.animation-element {
+  opacity: 0;
+}
+
+
+/* Slide-In Classes */
+.animation-element.slide-in-right {
+  animation: slide-in-right 0.3s forwards;
+}
+
+.animation-element.slide-in-left {
+  animation: slide-in-left 0.3s forwards;
+}
+
+.animation-element.slide-in-up {
+  animation: slide-in-up 0.3s forwards;
+}
+
+.animation-element.slide-in-down {
+  animation: slide-in-down 0.3s forwards;
+}
+
+/* Slide-Out Classes */
+.animation-element.slide-out-right {
+  animation: slide-out-right 0.3s forwards;
+}
+
+.animation-element.slide-out-left {
+  animation: slide-out-left 0.3s forwards;
+}
+
+.animation-element.inv-view.slide-out-up {
+  animation: slide-out-up 0.3s forwards;
+}
+
+.animation-element.inv-view.slide-out-down {
+  animation: slide-out-down 0.3s forwards;
+}
+
+/* Fade-In Class */
+.animation-element.fade-in {
+  animation: fade-in 0.3s forwards;
+}
+
+/* Fade-Out Class */
+.animation-element.fade-out {
+  animation: fade-out 0.3s forwards;
+}
+
+@keyframes text-animation {
+  to {
+    clip-path: polygon(100% 0, 100% 100%, 0 100%, 0 0);
+    transform: translateX(0%);
+  }
+}
+
+.animation-element.text-animation {
+  clip-path: polygon(100% 0, 100% 100%, 100% 100%, 100% 0);
+  transform: translateX(-100%);
+  opacity: 100;
+}
+
+.animation-element.text-animation {
+  animation: text-animation 1s linear forwards;
+  animation-delay: 0.3s;
+}
+
+
+.animation-group .animation-element:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.animation-group .animation-element:nth-child(2) {
+  animation-delay: 0.8s;
+}
+
+.animation-group .animation-element:nth-child(3) {
+  animation-delay: 1.1s;
+}
+
+.animation-group .animation-element:nth-child(4) {
+  animation-delay: 1.4s;
+}
+
+.animation-group .animation-element:nth-child(5) {
+  animation-delay: 1.7s;
+}
+
+.animation-group .animation-element:nth-child(6) {
+  animation-delay: 2.0s;
+}
+
+
+.no-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  /* Width of the scrollbar */
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  /* Color of the scrollbar handle */
+  border-radius: 8px;
+  /* Rounded corners */
+  border: 2px solid var(--primary-color);
+  /* Space around the handle */
+}
+
+/* Style the scrollbar on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color-dark);
+  border: 2px solid var(--primary-color-dark);
+  /* Darker color on hover */
 }

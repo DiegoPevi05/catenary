@@ -1,0 +1,18 @@
+<svg width="341" height="221" viewBox="0 0 341 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line x1="4.28622" y1="23.2483" x2="340.999" y2="22.9505" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="261.498" y2="-1" transform="matrix(0.766102 -0.642719 0.725679 0.688034 4.29288 198.699)" stroke="currentColor" stroke-width="6"/>
+<line x1="279.724" y1="24.2482" x2="279.724" y2="5.10487" stroke="currentColor" stroke-width="6"/>
+<ellipse cx="280.008" cy="4.46678" rx="5.00835" ry="4.46678" fill="currentColor"/>
+<ellipse cx="279.752" cy="207.415" rx="5.00835" ry="4.46678" fill="currentColor"/>
+<line y1="-1" x2="230.61" y2="-1" transform="matrix(0.999019 0.0442729 -0.0556277 0.998452 50.0835 183.776)" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="150.146" y2="-1" transform="matrix(0.104835 0.99449 -0.996503 0.0835575 190.317 40.8392)" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="16.2166" y2="-1" transform="matrix(-0.705923 -0.708288 0.783625 -0.621235 50.0835 181.224)" stroke="currentColor" stroke-width="6"/>
+<line x1="203.627" y1="30.6294" x2="203.627" y2="24.2483" stroke="currentColor" stroke-width="6"/>
+<line x1="278.752" y1="208.082" x2="278.752" y2="193.986" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="7.15122" y2="-1" transform="matrix(0.998061 0.0622445 -0.0781651 0.99694 279.037 193.986)" stroke="currentColor" stroke-width="6"/>
+<path d="M0 186.329H8.08319C12.3122 186.329 15.7405 189.757 15.7405 193.986V193.986C15.7405 198.215 12.3122 201.643 8.08318 201.643H0V186.329Z" fill="currentColor"/>
+<path d="M0 16.5909H8.08319C12.3122 16.5909 15.7405 20.0192 15.7405 24.2482V24.2482C15.7405 28.4773 12.3122 31.9056 8.08318 31.9056H0V16.5909Z" fill="currentColor"/>
+<line x1="244.694" y1="210.882" x2="316.242" y2="210.882" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="13.558" y2="-1" transform="matrix(0.746305 -0.665605 0.746305 0.665605 236.108 220.906)" stroke="currentColor" stroke-width="6"/>
+<line y1="-1" x2="13.558" y2="-1" transform="matrix(0.746305 0.665605 -0.746305 0.665605 314.811 211.882)" stroke="currentColor" stroke-width="6"/>
+</svg>
